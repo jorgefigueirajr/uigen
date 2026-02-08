@@ -7,7 +7,16 @@
       "mcp__playwright__browser_wait_for",
       "Bash(lsof:*)",
       "Bash(netstat:*)",
-      "Bash(ss:*)"
+      "Bash(ss:*)",
+      "Bash(git pull:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo sync:*)",
+      "Bash(gh config:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nConfigure GitHub Actions workflow with project setup and Playwright\n\n- Add npm setup and dev daemon startup to workflow\n- Configure custom instructions for Claude in CI environment\n- Add MCP Playwright configuration with allowed origins\n- Update auto-allowed tools in Claude settings for git operations\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }
